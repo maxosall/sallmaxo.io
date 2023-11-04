@@ -1,5 +1,5 @@
 <template>
-	<div class="text-2xl font-extrabold">heloo</div>
+	<Hero />
 </template>
 
 <script setup>
