@@ -1,5 +1,4 @@
 <template>
-
 <nav class="bg-white border-gray-200 dark:bg-gray-900 border-b">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://flowbite.com/" class="flex items-center">
@@ -22,7 +21,7 @@
         :class="[link.href === $route.path
                 ? 'text-blue-900 font-medium underline-offset-8 underline transition-all'
                 : 'text-gray-900 transition-all', 
-              'block pl-3 pr-4 py-2 rounded-md hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700']">{{ link.label }}</NuxtLink>
+              'block pl-3 pr-4 py-2 rounded-md hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700']"> {{ link.label }} </NuxtLink>
       </li>
       
     </ul>
@@ -46,8 +45,9 @@
 		{'href':'/about', 'label':'about'}
 
 	]
-</script>
 
+	
+</script>
 <style lang="css" scoped>
-	us
+	
 </style>
